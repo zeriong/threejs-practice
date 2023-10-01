@@ -32,7 +32,6 @@ function App() {
             // DirectionalLight: 태양광, 평행하게 이동하는 빛으로 default는 항상 위에서 비춰주고 position을 사용해 위치변경 가능
             // RectAreaLight: 촬영장의 직사각형 조명과 비슷하고 세번째 인자로 직사각형의 너비, 네번째 인자로 높이를 받는다.
             // SpotLight: 손전등처럼 점에서 시작해 원뿔 모양으로 퍼져나가는 조명
-            //
             // 모든 조명들에는 Helpers가 존재
             const light = new THREE.DirectionalLight(0xffff00, 10);
             scene.add(light);
