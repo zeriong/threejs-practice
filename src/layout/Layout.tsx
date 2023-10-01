@@ -5,7 +5,7 @@ export const Layout = () => {
     return (
         <>
             <Aside/>
-            <main className='pl-[360px]'>
+            <main className='relative left-0 pl-[360px] w-full h-full'>
                 <Outlet/>
             </main>
         </>
