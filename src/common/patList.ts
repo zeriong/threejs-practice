@@ -6,13 +6,13 @@ interface IPatList {
 
 export const patList: IPatList[] = [
     {
-        name: '시바',
-        path: '3d 모델',
+        name: 'shiba',
+        path: '/assets/shiba/scene.gltf',
         lv: 10,
     },
     {
-        name: '야옹이',
-        path: '3d 모델',
+        name: 'cat',
+        path: '/',
         lv: 200,
     },
 ];
